@@ -14,8 +14,6 @@ Everyone will get a chance to **be creative**, and work through some really **to
 
 As a reminder, GA has a zero plagiarism policy - your project's code **must be substantially yours**. **Do not copy code from similar projects, tutorials, or other sources**.  However, using  lines of code from  StackOverflow to accomplish general techniques/algorithms is okay - an example would be using StackOverflow as a source for code that replaces a character at a certain position in a string. 
 
-Lastly, in addition to presenting your projects, you will be required to complete a Project 1 Assessment (more in a bit).
-
 ---
 
 ## Planning & Presentation Requirements
@@ -153,8 +151,6 @@ You will have a maximum of 10 minutes to present your project following these gu
 - **Theme your game** to give it a more personal touch and make it more unique!
 - **Use your Development Tools** (Chrome DevTools rock!) to debug and solve issues.
 - Keep it simple. Minimum Viable Product (MVP) functionality that looks great is better than extra functionality added to a game without polish.
-- If you choose a card-based game, there is a CSS library in the _resources_ directory of the class repo that will help you render **beautiful** cards of any size, front and back.
-- Review and check regularly the [Project 1 Code Review](./project-1-code-review.pdf) to ensure that your project is going to meet the minimum requirements.
 - **Consult documentation and other resources** to better understand methods, etc.
 - Write **DRY (Don't Repeat Yourself)** code. Check for repeating code and refactor into functions that accept arguments.
 
@@ -162,31 +158,5 @@ You will have a maximum of 10 minutes to present your project following these gu
 
 ## Project Feedback + Evaluation
 
-- Your instructors will be using the [Project 1 Code Review](./project-1-code-review.pdf) form to determine whether or not the project passes all of the minimum requirements.
-- Your instructors will endeavor to deliver your code review by EOD Monday following Friday's presentation.
 - If your instructors determine that your project does not meet the above requirements (denoted using checkboxes), you may request to address the deficiencies identified. However, be aware that **there is only a single opportunity to resubmit a project or project assessment during the course**.
 - If there is a specific section of code that you would like an instructor to provide additional feedback, please ask!
-
----
-
-## Project 1 Assessment
-
-You will be assigned a Project 1 Assessment.
-
-Passing the project assessment is a requirement of the project itself.
-
-The goal of the assessment is to gauge your ability to develop a minimal front-end web application using HTML, CSS & JavaScript, including your ability to:
-
-- Write HTML that provides the app's overall structure and content. 
-- Use CSS to provide styling.
-- Use JavaScript to:
-	- Define variables that hold application state, cache DOM elements, etc.
-	- Select elements in the DOM and assign them to variables.
-	- Attach event listeners for browser events, such as `click`, being dispatched by DOM elements.
-	- Manipulate a DOM element's content and style. 
-
-You will work on the assessment individually, however, the challenge is "open book", so you will have access to all notes, code, lessons, google, etc.
-
-It is anticipated that it will take 30 - 60 minutes to complete. However, you will have up to 3 hours to complete the assessment.
-
-Best advice: Don't overthink the assignment!
