@@ -1,10 +1,13 @@
-#KatherineSinkler 
+# KatherineSinkler 
 
 Game Title: "Remember That Code!" 
 
-#intro:This game can help build memory on using coding basics by matching code to how it translates as a function within the code you are studying at that time.
+# Intro:Hello There:
+This is a card matching game designed to help the memory easily access the basics of html, DOM, css, and JavaScript so that we don't waste time googling the most basic things while coding a webpage.
 
-This project is a concentration/memory game created with myself and other new web developers in mind. While going through a coding bootcamp or just simply trying to sharpen memory of basic coding skills, we tend to learn a lot, yet we forget most of what we learn almost as quickly as we learned it. Since retention of our fast paced education tends to be short lived, this game will be designed to help our brain guide information from the working memory to the short-term memory, and  eventually to the long term memory through some consistent practice.   Since this game is designed to be a study tool, it will be designed with flash cards  and/or card matching games because these games force recall skills and are meant to be quick to use and uncomplicated.
+It is important to create projects that I will personally use and I have been look for a good online study tool for a while now. There are many proven benefits found in using flash cards (see below): The main goal that should be achieve through playing this game consistently is to create memory retention to help maintain the most basic groundwork learned in fast paced education that is learned in coding bootcamps and to also sharpen the memory of those who just don't remimber concepts sometimes. The ultimate plan is to help guide our brain to transfer information from the working memory, then to the short-term memory, and  eventually to the long term memory.
+Since this game is designed to be a study tool, The overall format will be designed with flash cards  and/or card matching games as a templet because these games force recall skills and are meant to be quick to play as well as uncomplicated to use.
+
 Here are some expected benefits of playing this game:
 
 *active recall
