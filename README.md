@@ -23,14 +23,14 @@ Here are some expected benefits of playing this game:
 #### User Experience
 
 * I want the user to have a random collection of cards at each start of game so that the memory isn't programed to focus on how to cheat through the game, but instead how to learn through it.
-* I want the user to know if what score they have by implementing an accuracy score into the program.
-* I want the user to see all cards at once on 2-4 card cells/columns, click a card from one column and then click the matching card from another cell/column.
+* I want the user to know what score they have by implementing an accuracy score into the program.
+* 1) I want the user to see all cards at once on 2-4 card cells/columns and  2) click a card from one column and then click the matching card from another cell/column to try to make a match.
 * I want the user to be able to login and save progress to compare.
 * I want the user to easily navigate the webpage. 
 * The user should be able to choose which game they want to play based on the subject they want to practice.
 * I want the user to be able to quit current subject they are playing and to start on a new subject if they please; or just to be able to quit altogether with the option to save data. 
-* I want dropdown menus or maybe buttons that offer different subject options of basic concepts that the user would like to study whenever they login.
-* I want the user to access the game through logging in or as a guest. 
+* I want dropdown menus or buttons to offer different subject options of basic concepts that the user would like to study whenever they login.
+* I want the user to access the game through logging in or as to play as a guest. 
 * This is a single player game.
 
 
