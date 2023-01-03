@@ -16,7 +16,25 @@ Here are some expected benefits of playing this game:
 
 #user Experience
 
+*I want the user to know if what score they have.
+* I want the user to be able to login and save progress to compare.
+*I want the user to easily navigate the site: quit current matching cell subject and to start on a new subject if they please or just to be able to quit altogether. 
 This game should be accessible through a web page. Their will be dropdown menus or maybe buttons that offer different subject options of what basic concepts that you would like to study today.
+
+
 
 ####Contributers
 This game project will be on a public git hub profile so that others who want to customize it to their needs may fork and clone and edit it for themselves as a study tool that makes more sense for them. I would like to also see other programmers that can add improvements to this game.
+
+
+######MVP
+
+I want basic wireframe in place and 1 basic subject cell of cards in place. I want the user experience to exist full.
+
+*Extra: 2 more subject cells and some color.
+*Extra, Extra: 5 subject cells minimum, color to cards, and sound bites.
+
+--Project timeline.
+*I want MVP done by Wednesday (1.3). 
+*I want to try to have and extra in place by Friday(1.4).
+*I want to only focus on fixing bugs and getting all function done by due date.
