@@ -1,162 +1,43 @@
-<img src="https://i.imgur.com/QgojyYY.png" width="400">
+#KatherineSinkler 
 
-# Project 1<br>Browser-based Game
+Game Title: "Remember That Code!" 
 
-## Overview
+#intro:This game can help build memory on using coding basics by matching code to how it translates as a function within the code you are studying at that time.
 
-Your first SEI project will start out with something fun - **a game!**
+This project is a concentration/memory game created with myself and other new web developers in mind. While going through a coding bootcamp or just simply trying to sharpen memory of basic coding skills, we tend to learn a lot, yet we forget most of what we learn almost as quickly as we learned it. Since retention of our fast paced education tends to be short lived, this game will be designed to help our brain guide information from the working memory to the short-term memory, and  eventually to the long term memory through some consistent practice.   Since this game is designed to be a study tool, it will be designed with flash cards  and/or card matching games because these games force recall skills and are meant to be quick to use and uncomplicated.
+Here are some expected benefits of playing this game:
 
-Thanks to the amount of logic there is in a game, there's no better app than a game to teach you how to **think like a programmer**!
+*active recall
+*Testing the strength of your brain
+*testing coherent understanding of material.
+*become better at concepts 
+*matching terminology to specific problems.
 
-Everyone will get a chance to **be creative**, and work through some really **tough programming challenges**.  You got your feet wet with our game code-alongs during class - now it's time to pick a game and go for it.
+###Wireframe
 
-**You will be working individually for this project**. However, your instructors and instructor assistants will be available for support via the support channel in Slack.  Please be sure to provide the details of the issue you are having - screenshots and relevant code are very helpful.
+![my wireframe](./MyFirstBoard.jpg)
 
-As a reminder, GA has a zero plagiarism policy - your project's code **must be substantially yours**. **Do not copy code from similar projects, tutorials, or other sources**.  However, using  lines of code from  StackOverflow to accomplish general techniques/algorithms is okay - an example would be using StackOverflow as a source for code that replaces a character at a certain position in a string. 
+#user Experience
 
----
-
-## Planning & Presentation Requirements
-
-### Planning - Due ____________:
-
-- You will share:
-
-	☐ Your choice of game.
-
-	☐ A wireframe of your "main" game screen.
-
-	☐ Pseudocode for the overall game play.
-
-### Presentation - ____________:
-
-You will have a maximum of 10 minutes to present your project following these guidelines:
+*I want the user to know if what score they have.
+* I want the user to be able to login and save progress to compare.
+*I want the user to easily navigate the site: quit current matching cell subject and to start on a new subject if they please or just to be able to quit altogether. 
+This game should be accessible through a web page. Their will be dropdown menus or maybe buttons that offer different subject options of what basic concepts that you would like to study today.
 
 
-1. **Introduce the Project:**
 
-	☐ Intro your game by paraphrasing the README.
-	
-2. **Demonstrate the Project:**
+####Contributers
+This game project will be on a public git hub profile so that others who want to customize it to their needs may fork and clone and edit it for themselves as a study tool that makes more sense for them. I would like to also see other programmers that can add improvements to this game.
 
-	☐ Launch the game by clicking the link in the README.
-	
-	☐ Play the game! If necessary, manipulate the values of variables in the console to ensure a quick win or loss.
-	
-3. **Show/discuss your code:**
 
-	☐ Briefly show the HTML & CSS. 
-	
-	☐ Show the JavaScript and discuss your favorite function.
+######MVP
 
-4. **Share the experience:**
+I want basic wireframe in place and 1 basic subject cell of cards in place. I want the user experience to exist full.
 
-	☐ What was your biggest challenge?
-	
-	☐ What are your key learnings/takeaways?
-	
-5. **Q & A + Feedback**
+*Extra: 2 more subject cells and some color.
+*Extra, Extra: 5 subject cells minimum, color to cards, and sound bites.
 
----
-
-## Technical Requirements
-
-### Your App Must:
-
-☐ **Render a game in the browser**.
-
-☐ **Include win/loss logic and render win/loss messages in HTML.** Popup alerts using the `alert()` method are okay during development, but not production.
-
-☐ Include separate HTML, CSS & JavaScript files.
-
-☐ Use vanilla JavaScript, not jQuery.
-
-☐ Have **properly indented HTML, CSS & JavaScript**. In addition, vertical whitespace needs to be consistent.
-
-☐ No remaining **unused and/or commented out code** (code that will never be called) .
-
-☐ Have functions and variables that are named sensibly. Remember, functions are typically named as verbs and variables (data) named as nouns.
-
-☐ **Be coded in a consistent** manner. For example, choose between your preference for function declarations vs. function expressions.
-
-☐ **Be deployed online** using GitHub Pages so that the rest of the world can play your game!
-
----
-
-## Necessary Deliverables
-
-☐ The code for **a working game that meets or exceeds the above technical requirements, built by you, and hosted on GitHub Pages** (covered next week).
-
-- **A ``README.md`` file** with these sections:
-
-  ☐ **\<Your game's title\>**: A description of your game.  Background info of the game is a nice touch.
-  
-  ☐ **Screenshot(s):** Images of your actual game.
-  
-  ☐ **Technologies Used**: List of the technologies used, e.g., JavaScript, HTML, CSS...
-  
-  ☐ **Getting Started**: In this section include the link to your deployed game and any instructions you deem important. 
-  
-  ☐ **Next Steps**: Planned future enhancements (icebox items).
-  
-  > Note: Don't underestimate the value of a well crafted `README.md`. The `README.md` introduces your project to prospective employers and forms their first impression of your work!
-
-☐ **Frequent commits (at least 1 every day) dating back to the very beginning of the project**. Never delete you repo to "start over".  Commit messages should be in the present tense, e.g., "Style game board" instead of "Styled game board". **Be sure to create the repo on your personal GitHub account and ensure that it is "public".** 
-
----
-
-## Choose From the Following Games
-
-> Note: Games are listed in approximate order of increasing difficulty.
-
-1. **Spaceman**
-    - A good icebox feature (optional feature) is to allow the player to choose from categories of words.
-1. **Concentration (Memory Game)**
-    - Use "cards" or other theme
-    - Will need to display "wrong" guess until a timer expires or until the next click.
-    - Must lose after a certain amount of time or after X number of bad guesses.
-1. **Simon**
-    - Requires audio
-1. **Mastermind** (Guess the Code)
-1. **Minesweeper**
-    - Must implement "flood" feature
-1. **Blackjack**
-    - Must implement wagering feature
-    - Do not have to implement splitting hands
-1. **Slot Machine**
-    - Must implement wagering feature
-1. **Checkers**
-    - No AI required - player vs. player is fine
-1. **Mancala**
-    - Implementing "capturing" is not required
-1. **Roulette**
-    - Must implement wagering feature
-1. **Video Poker**
-    - Must implement wagering feature
-1. **Craps**
-    - Must implement wagering feature
-1. **Solitaire**
-1. **Battleship**
-    - Requires some AI to implement the computer opponent
-
-**Only the above games are approved.  Any deviation, which is extremely discouraged, must receive approval from your instructor before starting your planning (wireframes & pseudocode)!**
-
-> IMPORTANT:  Because it's important to demonstrate your ability to perform DOM manipulation using JavaScript, all games should be DOM-based, not canvas-based.
-
----
-
-## Suggestions
-
-- **The BEST advice is to follow the guidelines and principles in the** [Guide to Building a Browser App](./guide-to-building-a-browser-game.md). The guide will give you a step-by-step process to get you started and its MVC design pattern will result in clearer, more concise code that can scale functionality more easily.
-- **Theme your game** to give it a more personal touch and make it more unique!
-- **Use your Development Tools** (Chrome DevTools rock!) to debug and solve issues.
-- Keep it simple. Minimum Viable Product (MVP) functionality that looks great is better than extra functionality added to a game without polish.
-- **Consult documentation and other resources** to better understand methods, etc.
-- Write **DRY (Don't Repeat Yourself)** code. Check for repeating code and refactor into functions that accept arguments.
-
----
-
-## Project Feedback + Evaluation
-
-- If your instructors determine that your project does not meet the above requirements (denoted using checkboxes), you may request to address the deficiencies identified. However, be aware that **there is only a single opportunity to resubmit a project or project assessment during the course**.
-- If there is a specific section of code that you would like an instructor to provide additional feedback, please ask!
+--Project timeline.
+*I want MVP done by Wednesday (1.3). 
+*I want to try to have and extra in place by Friday(1.4).
+*I want to only focus on fixing bugs and getting all function done by due date.
