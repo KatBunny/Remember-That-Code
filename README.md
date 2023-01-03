@@ -24,7 +24,7 @@ Here are some expected benefits of playing this game:
 
 * As a user, I want  to have a random collection of cards at each start of game pertaining to the subject that I want to study.
 
-    create 2 arrays with different, yet matching card values.
+    Create 2 arrays with different, yet matching card values.
 
         ``` const terms = ["href", "!(bang operator)", "head", "...", "...", ".."];
             const meanings = [" URL of page link..", "creates html skeleton", "container for data about data", "...", "...", ".."]
@@ -71,12 +71,15 @@ Here are some expected benefits of playing this game:
     Correspond with Html and CSS pages.
 
 
-* As a use, I want to click a card from one column and then click the matching card from another cell/column to try to make a match.
+* As a user, I want to click a card from one column and then click the matching card from another cell/column to try to make a match. 
+    
+    See Wire Frame
 
-* As a user, I want the user to be able to login and save progress to compare and  I want the user to easily navigate the webpage. 
+* As a user, I to be able to login and save progress to compare and  I want the user to easily navigate the webpage. 
+    
     See Wireframe.
    
-* I want the user to be able to quit current subject they are playing and to start on a new subject if they please; or just to be able to quit altogether with the option to save data.
+* As a user, I want to be able to quit current subject they are playing and to start on a new subject if they please; or just to be able to quit altogether with the option to save data. I also want to access my account information, the ability to quit or save a game, and to login through this same drop down menu. 
      Create a drop down menu or a button within the nav bar.
 
      ```` < div class = "dropdown">
@@ -85,11 +88,20 @@ Here are some expected benefits of playing this game:
                 </div>
         ```
 
-* I want dropdown menus or buttons to offer different subject options of basic concepts that the user would like to study whenever they login.
-* I want the user to access the game through logging in or as to play as a guest. 
-* This is a single player game.
 
-<!-- core they have by implementing an accuracy score into the program. -->
+* As a user, I want to be able to see my score based on a 100% scale chart, starting at 100% and reduced by 5% every mistake I make to be able to recognise what I need to practice more.
+    Create a forloop that iterates the score percentile and print to console the ner result.
+
+        ``` const starterScore = "100"
+        function starterSore (score); {
+        for (let i = 5; i < 100; i -- ); {
+            console.log( "Your score is " + score)
+            } 
+        };
+        return starterScore(i);
+        ```
+* As a user, I want this to be a single player game.
+
 
 ### Contributers
 * This game will be on a public github profile so that others who want to customize it to their needs may fork, clone, and edit it for themselves as a study tool.
@@ -106,9 +118,9 @@ Here are some expected benefits of playing this game:
     Array itteration other array methods will be used to create card options.
     DOM manipulation will be used to navigate the site and to practice the funtional abilities.
     I think flexbox will work well for the css and overall wireframe design.
-    HTML will include Nav Bar and Divs within the body to accomplish the wire frame goals.  
+    HTML will include Nav Bar and Divs within the body to accomplish the wire frame goals.   
 * Start viewport as a cellphone media query and next make it suitable for pc use.
-* Create a sidebar that will be responsive to keeping the score and to supply a dropdown menu so that the user can quit, save game, or to manage account. 
+* Create a nav bar that will be responsive to keeping the score and to supply a dropdown menu so that the user can quit, save game, or to manage account. 
 * The game will be black and white for now.
 
 ### Version 2:
