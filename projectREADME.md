@@ -1,4 +1,6 @@
-#KatherineSinkler Coding Memory Game
+#KatherineSinkler 
+
+Game Title: "Remember That Code!" 
 
 #intro:This game can help build memory on using coding basics by matching code to how it translates as a function within the code you are studying at that time.
 
@@ -13,6 +15,7 @@ Here are some expected benefits of playing this game:
 
 ###Wireframe
 
+![my wireframe](./MyFirstBoard.jpg)
 
 #user Experience
 

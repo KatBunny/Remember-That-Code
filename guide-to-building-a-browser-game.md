@@ -218,6 +218,7 @@ If you're concerned that using the following approach will result in you and you
 
     Wireframes also help reveal an application's state (data) and functionality.
 
+
 4. **Pseudocode**
 
 	  Pseudocode outlines the app's logic using plain language. It provides a road map to writing the code itself.
