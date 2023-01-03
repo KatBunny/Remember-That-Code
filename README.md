@@ -1,4 +1,4 @@
-# KatherineSinkler 
+## KatherineSinkler 
 
 Game Title: "Remember That Code!" 
 
@@ -20,7 +20,7 @@ Here are some expected benefits of playing this game:
 
 ![my wireframe](./MyFirstBoard.jpg)
 
-#### User Experience
+### User Experience
 
 * I want the user to have a random collection of cards at each start of game so that the memory isn't programed to focus on how to cheat through the game, but instead how to learn through it.
 * I want the user to know what score they have by implementing an accuracy score into the program.
@@ -35,12 +35,12 @@ Here are some expected benefits of playing this game:
 
 
 
-##### Contributers
+### Contributers
 * This game will be on a public github profile so that others who want to customize it to their needs may fork, clone, and edit it for themselves as a study tool.
 * I would like to also see other programmers that can add improvements to this game or suggest ways to fix bugs.
 
 
-###### MVP
+### MVP
 
 * I want basic wireframe in place and 1 basic subject with at least two cells/columns of cards in place. 
 * I want the user experience to look as similar to my wireframe as possible.
@@ -55,7 +55,7 @@ Here are some expected benefits of playing this game:
 * Create a sidebar that will be responsive to keeping the score and to supply a dropdown menu so that the user can quit, save game, or to manage account. 
 * The game will be black and white for now.
 
-###### Version 2:
+### Version 2:
 
 * Everything from mvp.
 * 1-3 subjects added with the same structure of each game. 
@@ -65,7 +65,7 @@ Here are some expected benefits of playing this game:
 * Add color and background design elements.
 * Psuedocode should mostly be the same as MVP except more aesthetically pleasing for the sake of engagement.
 
-###### Version 3 (ambitious stretch goals): 
+### Version 3 (ambitious stretch goals): 
 * 5 subject to play.
 * Add different colors to different subjects.
 * Sound bites upon completion.
