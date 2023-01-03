@@ -22,18 +22,74 @@ Here are some expected benefits of playing this game:
 
 ### User Experience
 
-* I want the user to have a random collection of cards at each start of game so that the memory isn't programed to focus on how to cheat through the game, but instead how to learn through it.
-* I want the user to know what score they have by implementing an accuracy score into the program.
-* 1) I want the user to see all cards at once on 2-4 card cells/columns and  2) click a card from one column and then click the matching card from another cell/column to try to make a match.
-* I want the user to be able to login and save progress to compare.
-* I want the user to easily navigate the webpage. 
-* The user should be able to choose which game they want to play based on the subject they want to practice.
-* I want the user to be able to quit current subject they are playing and to start on a new subject if they please; or just to be able to quit altogether with the option to save data. 
+* As a user, I want  to have a random collection of cards at each start of game pertaining to the subject that I want to study.
+
+    create 2 arrays with different, yet matching card values.
+
+        ``` const terms = ["href", "!(bang operator)", "head", "...", "...", ".."];
+            const meanings = [" URL of page link..", "creates html skeleton", "container for data about data", "...", "...", ".."]
+        ```
+    Create a function to generate the arrays.
+
+       ```  function htmlColumns (col1, col2) {
+                for(...)
+                console.log(...)
+                } elseIf {
+                    ...
+                }; 
+                
+    ```           
+    Creat a foor loop to itterate through the arrays.
+
+        ``` for (let i = 0; ...; ..) {
+                for(let ......length);
+                const cards = htmlColumns[..];
+        }
+        return cards;
+        ```
+
+    Create a math randomizer function.
+
+        ``` function randomC (cards) {
+            ..
+        }
+        randomC (cards);
+        ```
+
+     Create a class Expression of 'Columns' with constructor of 2 paremeters: 
+        1.) coding terms
+        2.) basic meanings
+
+        ``` const Columns = class {
+            constructor(codingTerms, basicMeanings) {
+                this.codingTerms = codingTerms;
+                this.width = codingWidth;
+            }
+        }; 
+        ```
+
+    Correspond with Html and CSS pages.
+
+
+* As a use, I want to click a card from one column and then click the matching card from another cell/column to try to make a match.
+
+* As a user, I want the user to be able to login and save progress to compare and  I want the user to easily navigate the webpage. 
+    See Wireframe.
+   
+* I want the user to be able to quit current subject they are playing and to start on a new subject if they please; or just to be able to quit altogether with the option to save data.
+     Create a drop down menu or a button within the nav bar.
+
+     ```` < div class = "dropdown">
+                <button>...
+                    <a href = "">Link</a>
+                </div>
+        ```
+
 * I want dropdown menus or buttons to offer different subject options of basic concepts that the user would like to study whenever they login.
 * I want the user to access the game through logging in or as to play as a guest. 
 * This is a single player game.
 
-
+<!-- core they have by implementing an accuracy score into the program. -->
 
 ### Contributers
 * This game will be on a public github profile so that others who want to customize it to their needs may fork, clone, and edit it for themselves as a study tool.
