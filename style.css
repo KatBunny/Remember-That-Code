@@ -1,0 +1,10 @@
+
+.container {
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: stretch;
+    grid-template: 10px;
+    order: 6;
+
+
+}

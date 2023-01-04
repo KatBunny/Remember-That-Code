@@ -153,4 +153,3 @@ Here are some expected benefits of playing this game:
 * 3. Use DOM event to create click effects for each card and button pressed.
 * 4. Depending on user version, css and Javascript will add aesthetics to the DOM.
 * 5. Use Javascript functions, prompt(), and Arrays to create most of the funtionality of the game. 
-
