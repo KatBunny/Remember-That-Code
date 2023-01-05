@@ -109,3 +109,34 @@ header {
     
     
         }
+        .dropbtn {
+            background-color: lavender;
+            color: black;
+            cursor: pointer;
+            font-style: italic;
+            font-family: fantasy;
+        }
+        .dropbtn:hover, .dropbtn:focus {
+            background-color: lightgray;
+        }
+        .dropdown {
+            position: relative;
+            display: inline-block;
+        }
+        .drop-content {
+            display: list-item;
+            position: absolute;
+            background-color: whitesmoke;
+        }
+        /* I may need to rework ^^ */
+        .dropdown-content a {
+                color: black;
+                display:block;
+        }
+        /* .dropdown a: hover {
+            background-color lightgray;
+        } */
+        .show {display: block;}
+
+
+        
