@@ -1,10 +1,111 @@
+html {
+    font-size: 2rem;
 
-.container {
+}
+h1 {
+    padding: auto;
+}
+div {
+    background-color: ghostwhite;
+
+}
+
+
+@media (max-width: 600px) {
+    body{
+        color: blueviolet;
+        align-items: auto;
+    }
+    h1 {
+        display: inherit;
+        justify-self: center;
+        text-align: center;
+        padding-right: 25%;
+        /* font-family: ; */
+    
+       
+    }
+        .row {
+            display: flex;
+            display: inline-flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            align-items: stretch;
+            grid-template: 10px;
+            order: 6;
+            height: 500px;
+            width: 25%;
+            text-align: center;
+            align-self: flex-start;
+            
+        }
+    }
+                                .row-2 {
+                                    display: flex;
+                                    display: inline-flex;
+                                    flex-direction: column;
+                                    justify-content: space-evenly;
+                                    align-items: stretch;
+                                    grid-template: 10px;
+                                    order: 6;
+                                    height: 500px;
+                                    width: 25%;
+                                    text-align: center;
+                                }
+                                    
+        header {
+            display: flex;
+            flex-direction: column;
+                order: 1;
+                align-items: stretch;
+        }
+                .nav--featured {
+                    order: 1;
+        
+                }
+        
+                .nav--featured.div {
+                    order: 0;
+                }
+        
+                .h1--featured {
+                    display: flex;
+                    flex-direction: column;
+                    text-align: center;
+                    width: 50%;
+    
+                }
+            
+
+
+.row {
+ 
+    flex-direction: column;
+    width: 40%;
+    text-align: center;
+    padding-left: 10%;
+ 
+}
+.row-2 {
+ 
     flex-direction: column;
     justify-content: space-evenly;
     align-items: stretch;
-    grid-template: 10px;
-    order: 6;
-
-
+    width: 40%;
+    text-align: center;
+    grid-template: 10%;
 }
+header {
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+} 
+        h1 {
+            display: inherit;
+            justify-self: center;
+            text-align: center;
+            padding-left: 25%;
+            /* font-family: ; */
+    
+    
+        }
