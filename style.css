@@ -16,6 +16,10 @@ div {
         color: blueviolet;
         align-items: auto;
     }
+            ul.topnav li.right,
+            ul.topnav li {
+                float: none;
+            }
     h1 {
         display: inherit;
         justify-self: center;
@@ -37,6 +41,7 @@ div {
             width: 25%;
             text-align: center;
             align-self: flex-start;
+
             
         }
     }
@@ -111,18 +116,43 @@ header {
             justify-self: center;
             text-align: center;
             padding-left: 25%;
-            /* font-family: ; */
-    
-    
+            font-family: fantasy ;
         }
-        /* .dropbtn {
+         .dropbtn {
+            display: inline;
+            float: left;
             background-color: lavender;
             color: black;
             cursor: pointer;
             font-style: italic;
             font-family: fantasy;
+         
         }
-        .dropbtn:hover, .dropbtn:focus {
+
+        .li.active {
+            background-color: lightpink;
+        }
+        a {
+            display: block;
+            padding: 5px;
+            background-color: inherit;
+            color: inherit;
+            font-family: inherit;
+        }
+        .li {
+            float: right;
+            border-right: 1px solid gray;
+            background-color: whitesmoke;
+        }
+        ul {
+            position: fixed;
+            top: 0px;
+            width: 100%;
+            list-style: none;
+            background-color: inherit;
+            border: 1px solid black;
+        }
+         .dropbtn:hover, .dropbtn:focus {
             background-color: lightgray;
         }
         .dropdown {
@@ -133,16 +163,16 @@ header {
             display: list-item;
             position: absolute;
             background-color: whitesmoke;
-        }
-        /* I may need to rework ^^ */
-        /* .dropdown-content a {
+        } 
+        /* I may need to rework ^^ */ */
+     .dropdown-content a {
                 color: black;
-                display:block; */
-    
-        /* .dropdown a: hover {
-            background-color lightgray;
-        } */
-        /* .show {display: block;} */ 
+                display:block; 
+     }
+     .dropdown a hover {
+            background-color: lightgray;
+        } 
+     .show {display: block;}  
 
 
         

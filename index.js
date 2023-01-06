@@ -1,31 +1,31 @@
 console.log('here');
 
 
-// // open drop menu 
-// function myFunction (){
-//     document.getElementById("myDropdown").classList.toggle("show");
-// };
+// open drop menu 
+function myFunction (){
+    document.getElementById("myDropdown").classList.toggle("show");
+};
 
-// // close drop menu
-// window.onclick = function(event) {
-//     if (!event.target.matches('.dropbtn')) {
-//         let dropdown = document.getElementsByClassName("dropdown-content");
-//         let i 
-//         for (i = 0;i < dropdown.length; i++) {
-//             let openDrop = dropdown[i];
-//             if (openDrop.classList.contains('show')) {
-//                 openDrop.classList.remove('show');
-//             }
-//         }
-//     }
-// }
+// close drop menu
+window.onclick = function(event) {
+    if (!event.target.matches('.dropbtn')) {
+        let dropdown = document.getElementsByClassName("dropDown-content");
+        let i 
+        for (i = 0;i < dropdown.length; i++) {
+            let openDrop = dropdown[i];
+            if (openDrop.classList.contains('show')) {
+                openDrop.classList.remove('show');
+            }
+        }
+    }
+}
 
-    Create 2 arrays with different, yet matching card values.
+    // Create 2 arrays with different, yet matching card values.
 
         ``` const terms = ["href", "!(bang operator)", "head", "...", "...", ".."];
             const meanings = [" URL of page link..", "creates html skeleton", "container for data about data", "...", "...", ".."]
         ```
-         Create a function to generate the arrays.
+        //  Create a function to generate the arrays.
 
        ```  function htmlColumns (col1, col2) {
                 for(...)
