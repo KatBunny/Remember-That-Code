@@ -78,23 +78,29 @@ div {
             
 
 
-.row {
+ .row {
  
-    flex-direction: column;
-    width: 40%;
-    text-align: center;
-    padding-left: 10%;
- 
-}
-.row-2 {
- 
-    flex-direction: column;
     justify-content: space-evenly;
     align-items: stretch;
-    width: 40%;
+    flex-direction: column;
+    width: 25%;
     text-align: center;
-    grid-template: 10%;
+    padding-left: 15%;
+
+ 
+} 
+.row {
+
+    justify-content: space-evenly;
+    align-items: stretch;
+    flex-direction: column;
+    width: 25%;
+    text-align: center;
+    padding-left: 15%;
+
+
 }
+
 header {
     display: flex;
     flex-direction: row;
@@ -109,7 +115,7 @@ header {
     
     
         }
-        .dropbtn {
+        /* .dropbtn {
             background-color: lavender;
             color: black;
             cursor: pointer;
@@ -129,14 +135,14 @@ header {
             background-color: whitesmoke;
         }
         /* I may need to rework ^^ */
-        .dropdown-content a {
+        /* .dropdown-content a {
                 color: black;
-                display:block;
-        }
+                display:block; */
+    
         /* .dropdown a: hover {
             background-color lightgray;
         } */
-        .show {display: block;}
+        /* .show {display: block;} */ 
 
 
         
