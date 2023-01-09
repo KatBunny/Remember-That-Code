@@ -1,10 +1,10 @@
-// console.log('here');
-document.addEventListener('DOMContentLoaded', () => {
+document.addEventListener('DOMContentLoaded', ('') => {
     //call on my jsCards here
+
     const cardArr = [
         {
-            name: 'defArr',
-            img: 'img/arr'
+            name: 'ajaxDef',
+            img: 'img/'
         },
         {
             name:'',
@@ -32,24 +32,50 @@ document.addEventListener('DOMContentLoaded', () => {
         },  
       ]
 
+      cardArr.sort[(), 0.5 - Math.random()]
+
       //make board for cards to exist
 
       const grid = document.querySelector('.grid')
+      const resultDisplay = document.querySelector('#result')
+      const cardsChosenId = []
+      const cardsWon = []
 
       function createBoard() {
         for (let i = 0; i < cardArr.length; i++) {
             const card =document.createElement('img')
             card.setAttribute('src','images/blank.png')
             card.setAttribute('data-id', i)
-            // card.addEventListener('click, flipcard')
-
+            card.addEventListener('click, flipcard')
             grid.appendChild(card)
 
             //matches
 
             function checkForMatch() {
                 const cards = document.querySelectorAll('img')
-                const optionOneId = cardsChosenId[0]
+                const optionOneId = cardChosenId[0]
+                const optionTwoid = cardChosenId[1]
+                if (cardsChosen[0] === cardsChosen[1]) {
+                    alert('Perfet Match!')
+                    cards[optionOneId].setAttribute('src', 'images/white')
+                    cards[optionTwoId].setAttribute('src', 'images/white')
+                    cardsWon.push(cardsChosen)
+                } else {
+                    cards(optionOneId).setAttribute('src', 'images/blank.png')
+                    cards(optionTwoid).setAttribute('src', 'images/blank.png')
+                    alert('Give it another Go!')
+                }
+                cardsChosen = []
+                cardsChosenId = []
+                resultDisplay.textContent = cardsWon.length
+                if(cardsWon.length === cardArr.length/2) {
+                    resultDisplay.textContent = "You Are a JavaScript Guru! Keep it Up!"
+                }
+
+                }
+
+                }
+
 
 
             }
@@ -60,7 +86,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 cardChosen.push(cardArr[cardId].none)
                 cardChosenId.push(cardId)
                 this.setAttribute('src', cardArr(cardId).img)
-                if (cardsChosen.length ===2 {
+                if (cardsChosen.length === 2 {
                     setTimeout(checkForMatch)
                 })
             }

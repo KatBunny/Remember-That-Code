@@ -49,7 +49,7 @@ div {
     
        
     }
-        .row {
+        .grid {
             display: flex;
             display: inline-flex;
             flex-direction: column;
@@ -57,8 +57,8 @@ div {
             align-items: stretch;
             grid-template: 10px;
             order: 6;
-            height: 500px;
-            width: 25%;
+            height: 100px;
+            width: 100px;
             text-align: center;
             align-self: flex-start;
 
@@ -102,14 +102,18 @@ div {
                     width: 50%;
     
                 }
- .row {
-    display: inline-flex;
+ .grid {
+    /* display: inline-flex;
     flex-flow:column nowrap;
     flex-direction: column; 
     justify-content: space-evenly;
     align-content: space-between;
     gap: 5px;
-    text-align: center;
+    text-align: center; */
+    columns: 6;
+    grid-row-start: auto 6;
+    column-gap: 2;
+    row-gap: 3;
 } 
 .column {
     order: 1;
@@ -213,22 +217,20 @@ h1 {
         height: 400px;
         width: 300px;
     }
-/*     
 
 
 
 
-/* The alert message box
+ /* The alert message box */
 .alert {
     padding: 20px;
-    background-color: #f44336;
-    /* Red */
+    background-color: #f44336 Red; 
     color: white;
     margin-bottom: 15px;
 }
-*/ */
-/* 
-The close button
+
+
+/* The close button */
 .closebtn {
     margin-left: 15px;
     color: white;
@@ -238,16 +240,16 @@ The close button
     line-height: 20px;
     cursor: pointer;
     transition: 0.3s;
-} */
+} 
 
-/* When moving the mouse over the close button */
-/* .closebtn:hover {
+/* // When moving the mouse over the close button */ */
+ .closebtn:hover {
     color: black;
-} */
+} 
 
 
-/* Large rounded green border
+ Large rounded green border
 hr.new5 {
     border: 10px solid green;
     border-radius: 5px;
-} */
+}
