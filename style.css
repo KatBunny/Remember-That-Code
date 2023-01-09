@@ -1,3 +1,6 @@
+* {
+    box-sizing:border-box;
+}
 html {
     font-size: 2rem;
 
@@ -11,11 +14,26 @@ div {
 }
 
 
-@media (max-width: 600px) {
+@media all and (display-mode:fullscreen) {
     body{
+        margin:0;
+        border: 5px solid white;
         color: blueviolet;
         align-items: auto;
     }
+}
+@media only screen and (max-with: 650px) {
+    body {
+        max-width: fit-content;
+        max-height: fit-content;
+    }
+    .column{
+        width: 100%;
+    }
+    .header {
+        height: 50%;
+        }
+}
             ul.topnav li.right,
             ul.topnav li {
                 float: none;
@@ -26,6 +44,8 @@ div {
         text-align: center;
         padding-right: 25%;
         /* font-family: ; */
+        /* white-space: wrap;
+        max-width: fit-content; */
     
        
     }
@@ -44,6 +64,8 @@ div {
 
             
         }
+    .flex-container {
+        display: flex;
     }
                                 .row-2 {
                                     display: flex;
@@ -69,9 +91,9 @@ div {
         
                 }
         
-                .nav--featured.div {
+                /* .nav--featured.div {
                     order: 0;
-                }
+                } */
         
                 .h1--featured {
                     display: flex;
@@ -80,57 +102,47 @@ div {
                     width: 50%;
     
                 }
-            
-
-
  .row {
- 
+    display: inline-flex;
+    flex-flow:column nowrap;
+    flex-direction: column; 
     justify-content: space-evenly;
-    align-items: stretch;
-    flex-direction: column;
-    width: 25%;
+    align-content: space-between;
+    gap: 5px;
     text-align: center;
-    padding-left: 15%;
-
- 
 } 
-.row {
-
-    justify-content: space-evenly;
+.column {
+    order: 1;
     align-items: stretch;
-    flex-direction: column;
-    width: 25%;
-    text-align: center;
-    padding-left: 15%;
+
+}
+.dropdown {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    color: black;
+    cursor: pointer;
+    font-style: italic;
+    font-family: fantasy;
 
 
 }
-
-header {
-    display: flex;
-    flex-direction: row;
-    align-items: stretch;
-} 
-        h1 {
-            display: inherit;
-            justify-self: center;
-            text-align: center;
-            padding-left: 25%;
-            font-family: fantasy ;
-        }
-         .dropbtn {
-            display: inline;
-            float: left;
+h1 {
+    display: inherit;
+    justify-self: center;
+    text-align: center;
+    padding-left: 25%;
+    font-family: fantasy ;
+}
+.dropbtn {
+    display: inherit;
+     /* float: left; */
             background-color: lavender;
             color: black;
             cursor: pointer;
             font-style: italic;
             font-family: fantasy;
          
-        }
-
-        .li.active {
-            background-color: lightpink;
         }
         a {
             display: block;
@@ -139,20 +151,7 @@ header {
             color: inherit;
             font-family: inherit;
         }
-        .li {
-            float: right;
-            border-right: 1px solid gray;
-            background-color: whitesmoke;
-        }
-        ul {
-            position: fixed;
-            top: 0px;
-            width: 100%;
-            list-style: none;
-            background-color: inherit;
-            border: 1px solid black;
-        }
-         .dropbtn:hover, .dropbtn:focus {
+            .dropbtn:hover, .dropbtn:focus {
             background-color: lightgray;
         }
         .dropdown {
@@ -164,7 +163,6 @@ header {
             position: absolute;
             background-color: whitesmoke;
         } 
-        /* I may need to rework ^^ */ */
      .dropdown-content a {
                 color: black;
                 display:block; 
@@ -172,7 +170,10 @@ header {
      .dropdown a hover {
             background-color: lightgray;
         } 
-     .show {display: block;}  
+     .show {
+        display: block;
+    }  
+    
 
 
-        
+    
