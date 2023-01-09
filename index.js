@@ -1,5 +1,74 @@
-console.log('here');
+// console.log('here');
+document.addEventListener('DOMContentLoaded', () => {
+    //call on my jsCards here
+    const cardArr = [
+        {
+            name: 'defArr',
+            img: 'img/arr'
+        },
+        {
+            name:'',
+            img:''
+        },
+         {
+            name:'',
+            img:''
+        },
+     {
+            name:'',
+            img:''
+        },
+     {
+            name:'',
+            img:''
+        },
+     {
+            name:'',
+            img:''
+        },
+     {
+            name:'',
+            img:''
+        },  
+      ]
 
+      //make board for cards to exist
+
+      const grid = document.querySelector('.grid')
+
+      function createBoard() {
+        for (let i = 0; i < cardArr.length; i++) {
+            const card =document.createElement('img')
+            card.setAttribute('src','images/blank.png')
+            card.setAttribute('data-id', i)
+            // card.addEventListener('click, flipcard')
+
+            grid.appendChild(card)
+
+            //matches
+
+            function checkForMatch() {
+                const cards = document.querySelectorAll('img')
+                const optionOneId = cardsChosenId[0]
+
+
+            }
+            //flip card
+
+            function flipcard() {
+                let cardId = this.getAttribute('data-id')
+                cardChosen.push(cardArr[cardId].none)
+                cardChosenId.push(cardId)
+                this.setAttribute('src', cardArr(cardId).img)
+                if (cardsChosen.length ===2 {
+                    setTimeout(checkForMatch)
+                })
+            }
+        }
+      }
+
+      createBoard()
+})
 
 // open drop menu 
 function myFunction (){

@@ -178,7 +178,45 @@ h1 {
         border: 3px solid gray;
         background-color: lightgrey;
     }
+    .myDropDown {
+        display: flex;
+        align-items: center;
+        background-color: silver;
+        min-height: 10vh;
+
+    }
+    .myDropDown-links {
+        display: flex;
+        background-color: skyblue;
+        justify-content: space-around;
+        width: 25%;
+    }
+    .dropDown-content {
+        letter-spacing: 5px;
+        font-size: 15px;
+        background-color: whitesmoke;
+
+        
+    }
+    .dropDown-content a {
+        background-color: ghostwhite;
+        display: flex;
+        flex-direction: column;
+
+    }
+    ul {
+        list-style: none;
+    }
+    .grid {
+        display: flex;
+        flex-wrap: wrap;
+        height: 400px;
+        width: 300px;
+    }
 /*     
+
+
+
 
 /* The alert message box
 .alert {
