@@ -1,10 +1,17 @@
 * {
     box-sizing:border-box;
+    
 }
-html {
+/* body {
+    grid-template-columns: 6;
+    grid-template-rows: 6;
+    column-gap: 2px;
+    row-gap: 3px;
+} */
+/* html {
     font-size: 2rem;
 
-}
+} */
 h1 {
     padding: auto;
 }
@@ -33,11 +40,6 @@ div {
     .header {
         height: 50%;
         }
-}
-            ul.topnav li.right,
-            ul.topnav li {
-                float: none;
-            }
     h1 {
         display: inherit;
         justify-self: center;
@@ -49,7 +51,7 @@ div {
     
        
     }
-        .grid {
+        . .row{
             display: flex;
             display: inline-flex;
             flex-direction: column;
@@ -102,18 +104,18 @@ div {
                     width: 50%;
     
                 }
- .grid {
-    /* display: inline-flex;
+ .row {
+    display: inline-flex;
     flex-flow:column nowrap;
     flex-direction: column; 
     justify-content: space-evenly;
     align-content: space-between;
     gap: 5px;
-    text-align: center; */
-    columns: 6;
+    text-align: center; 
+    /* columns: 6;
     grid-row-start: auto 6;
     column-gap: 2;
-    row-gap: 3;
+    row-gap: 3; 
 } 
 .column {
     order: 1;
@@ -162,15 +164,15 @@ h1 {
             position: relative;
             display: inline-block;
         }
-        .drop-content {
+        /* .drop-content {
             display: list-item;
             position: absolute;
             background-color: whitesmoke;
-        } 
-     .dropdown-content a {
+        }  */
+     /* .dropdown-content a {
                 color: black;
                 display:block; 
-     }
+     } */
      .dropdown a hover {
             background-color: lightgray;
         } 
@@ -178,10 +180,10 @@ h1 {
         display: block;
     }  
 
-    .canvas {
+    /* .canvas {
         border: 3px solid gray;
         background-color: lightgrey;
-    }
+    } */
     .myDropDown {
         display: flex;
         align-items: center;
@@ -189,28 +191,25 @@ h1 {
         min-height: 10vh;
 
     }
-    .myDropDown-links {
+    /* .myDropDown-links {
         display: flex;
         background-color: skyblue;
         justify-content: space-around;
         width: 25%;
-    }
-    .dropDown-content {
+    } */
+    /* .dropDown-content {
         letter-spacing: 5px;
         font-size: 15px;
         background-color: whitesmoke;
 
         
-    }
-    .dropDown-content a {
+    } */
+    /* .dropDown-content a {
         background-color: ghostwhite;
         display: flex;
         flex-direction: column;
 
-    }
-    ul {
-        list-style: none;
-    }
+    } */
     .grid {
         display: flex;
         flex-wrap: wrap;
@@ -222,16 +221,16 @@ h1 {
 
 
  /* The alert message box */
-.alert {
+/* .alert {
     padding: 20px;
     background-color: #f44336 Red; 
     color: white;
     margin-bottom: 15px;
-}
+} */
 
 
 /* The close button */
-.closebtn {
+/* .closebtn {
     margin-left: 15px;
     color: white;
     font-weight: bold;
@@ -240,16 +239,16 @@ h1 {
     line-height: 20px;
     cursor: pointer;
     transition: 0.3s;
-} 
+}  */
 
 /* // When moving the mouse over the close button */ */
- .closebtn:hover {
+ /* .closebtn:hover {
     color: black;
-} 
+}  */
 
 
  Large rounded green border
-hr.new5 {
+/* hr.new5 {
     border: 10px solid green;
     border-radius: 5px;
-}
+} */

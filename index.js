@@ -1,34 +1,49 @@
 document.addEventListener('DOMContentLoaded', ('') => {
     //call on my jsCards here
-
     const cardArr = [
         {
-            name: 'ajaxDef',
-            img: 'img/'
+            name: 'ajaxAns',
+            img: 'img/','images/ajaxAns.jpg'
         },
         {
             name:'',
-            img:''
+            img:'','images/blank.jpeg'
         },
          {
             name:'',
-            img:''
+            img:'','images/htmlprompt.jpg'
         },
      {
             name:'',
-            img:''
+            img:'','images/My project-2.jpg'
+        },
+             {
+            name:'',
+            img:'','images/My project-4.jpg'
+        },
+             {
+            name:'',
+            img:'','images/My project-5.jpg'
+        },
+             {
+            name:'',
+            img:'','images/My project-6.jpg'
+        },
+             {
+            name:'',
+            img:'','images/My project-7.jpg'
         },
      {
             name:'',
-            img:''
+            img:'','images/My project-8.jpg'
         },
      {
             name:'',
-            img:''
+            img:'','images/My project-9.jpg'
         },
      {
             name:'',
-            img:''
+            img:'','images/My project-10.jpg'
         },  
       ]
 
