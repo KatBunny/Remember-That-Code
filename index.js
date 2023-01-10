@@ -1,53 +1,61 @@
-document.addEventListener('DOMContentLoaded', ('') => {
+document.addEventListener('DOMContentLoaded', () => {
     //call on my jsCards here
     const cardArr = [
-        {
-            name: 'ajaxAns',
-            img: 'img/','images/ajaxAns.jpg'
-        },
-        {
-            name:'',
-            img:'','images/blank.jpeg'
-        },
-         {
-            name:'',
-            img:'','images/htmlprompt.jpg'
-        },
-     {
-            name:'',
-            img:'','images/My project-2.jpg'
-        },
-             {
-            name:'',
-            img:'','images/My project-4.jpg'
-        },
-             {
-            name:'',
-            img:'','images/My project-5.jpg'
-        },
-             {
-            name:'',
-            img:'','images/My project-6.jpg'
-        },
-             {
-            name:'',
-            img:'','images/My project-7.jpg'
-        },
-     {
-            name:'',
-            img:'','images/My project-8.jpg'
-        },
-     {
-            name:'',
-            img:'','images/My project-9.jpg'
-        },
-     {
-            name:'',
-            img:'','images/My project-10.jpg'
-        },  
+        // {
+        //     name: 'ajaxAns',
+        //     img: 'img/', 'images/ajaxAns.jpg'
+        // }
+        // {
+        //     name:'',
+        //     img:'','images/blank.jpeg'
+        // },
+    //      {
+    //         name:'',
+    //         img:'','images/htmlprompt.jpg'
+    //     },
+    //  {
+    //         name:'',
+    //         img:'','images/My project-2.jpg'
+    //     },
+    //          {
+    //         name:'',
+    //         img:'','images/My project-4.jpg'
+    //     },
+        //      {
+        //     name:'',
+        //     img:'','images/My project-5.jpg'
+        // },
+        //      {
+        //     name:'',
+        //     img:'','images/My project-6.jpg'
+        // },
+        //      {
+        //     name:'',
+        //     img:'','images/My project-7.jpg'
+        // },
+    //  {
+    //         name:'',
+    //         img:'','images/My project-8.jpg'
+    //     },
+    //  {
+    //         name:'',
+    //         img:'','images/My project-9.jpg'
+    //     },
+    //  {
+    //         name:'',
+    //         img:'','images/My project-10.jpg'
+    //     },
+    //     {
+    //         name:'',
+    //         img:'','images/My project-11.jpg'
+    //     } 
+        // {
+        //     name:'',
+        //     img:'', 'images/My project-12.jpg'
+        // }
       ]
 
-      cardArr.sort[(), 0.5 - Math.random()]
+      cardArr.sort[(''), 0.5 - Math.random()]
 
       //make board for cards to exist
 
@@ -60,7 +68,7 @@ document.addEventListener('DOMContentLoaded', ('') => {
         for (let i = 0; i < cardArr.length; i++) {
             const card =document.createElement('img')
             card.setAttribute('src','images/blank.png')
-            card.setAttribute('data-id', i)
+            card.setAttribute('data-id', ['i'])
             card.addEventListener('click, flipcard')
             grid.appendChild(card)
 
@@ -72,8 +80,8 @@ document.addEventListener('DOMContentLoaded', ('') => {
                 const optionTwoid = cardChosenId[1]
                 if (cardsChosen[0] === cardsChosen[1]) {
                     alert('Perfet Match!')
-                    cards[optionOneId].setAttribute('src', 'images/white')
-                    cards[optionTwoId].setAttribute('src', 'images/white')
+                    cards(optionOneId).setAttribute('src', 'images/white')
+                    cards(optionTwoId).setAttribute('src', 'images/white')
                     cardsWon.push(cardsChosen)
                 } else {
                     cards(optionOneId).setAttribute('src', 'images/blank.png')
@@ -98,18 +106,20 @@ document.addEventListener('DOMContentLoaded', ('') => {
 
             function flipcard() {
                 let cardId = this.getAttribute('data-id')
-                cardChosen.push(cardArr[cardId].none)
+                cardChosen.push(cardArr(cardId).none)
                 cardChosenId.push(cardId)
                 this.setAttribute('src', cardArr(cardId).img)
-                if (cardsChosen.length === 2 {
-                    setTimeout(checkForMatch)
-                })
+                // if (cardsChosen.length === 2  {
+                //     setTimeout(checkForMatch)
+                // }
+                // )
             }
         }
-      }
+    
 
-      createBoard()
-})
+    //   createBoard()
+// }
+)
 
 // open drop menu 
 function myFunction (){

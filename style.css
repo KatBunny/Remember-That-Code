@@ -51,7 +51,7 @@ div {
     
        
     }
-        . .row{
+         .row{
             display: flex;
             display: inline-flex;
             flex-direction: column;
@@ -69,6 +69,7 @@ div {
     .flex-container {
         display: flex;
     }
+}
                                 .row-2 {
                                     display: flex;
                                     display: inline-flex;
@@ -241,14 +242,8 @@ h1 {
     transition: 0.3s;
 }  */
 
-/* // When moving the mouse over the close button */ */
+/* // When moving the mouse over the close button */ 
  /* .closebtn:hover {
     color: black;
 }  */
 
-
- Large rounded green border
-/* hr.new5 {
-    border: 10px solid green;
-    border-radius: 5px;
-} */
