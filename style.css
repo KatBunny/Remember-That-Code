@@ -1,7 +1,8 @@
 * {
     box-sizing:border-box;
-    border: 2px;
-    border-color: red;
+    display: grid;
+    /* border: 2px;
+    border-color: red; */
     
 }
    .grid {
@@ -9,65 +10,72 @@
        flex-wrap: wrap;
        height: 100px;
        width: 100px; 
-       grid-template-columns: auto;
-       grid-template-rows: auto; 
-   }
- body {
+       /*grid-template-columns: auto;
+       grid-template-rows: auto;  */
+       background-color: red;
+}
+ /* body {
     grid-template-columns: 3;
-    grid-template-rows: 6;
-    column-gap: 2px;
-    row-gap: 3px;
-} 
+    grid-template-rows: 3; 
+    column-gap: 1px;
+    row-gap: 1px;
+    background-color: orange
+    ;
+}  */
 /* html {
     font-size: 2rem;
 
 } */
 h1 {
-    padding: auto;
+    content: center;
+    background-color: pink;
 }
 div {
-    background-color: ghostwhite;
+    background-color: green
+    ;
+    display: revert;
+
 
 }
 
 
 @media all and (display-mode:fullscreen) {
-    body{
-        margin:0;
-        border: 5px solid white;
+    * {
+        margin: 1px;  
+        border: 1px solid white;
         color: blueviolet;
-        align-items: auto;
+         background-color: yellow; 
     }
 }
-@media only screen and (max-with: 650px) {
-    body {
+/* @media only screen and (max-with: 650px) {*/
+    /* body {
         max-width: fit-content;
         max-height: fit-content;
-    }
-    .column{
-        width: 100%;
-    }
-    .header {
-        height: 50%;
-        }
-    h1 {
-        display: inherit;
-        justify-self: center;
-        text-align: center;
-        padding-right: 25%;
-        white-space: wrap;
-        max-width: fit-content;
+        background-color: yellow;
+    }  */
+    /* .column{
+        width: 100%; */
     
+    /* .header {
+        height: 50%;
+        } */
+    h1 {
+        /* display: inherit; */
+        /* justify-self: center; */
+        text-align: center;
+        white-space: wrap;
+
+        /* max-width: fit-content; */
        
     }
-         .row{
+         .grid {
             display: flex;
             display: inline-flex;
             flex-direction: column;
             justify-content: space-evenly;
             align-items: stretch;
             grid-template: 10px;
-            order: 6;
+            /* order: 1; */
             height: 100px;
             width: 100px;
             text-align: center;
@@ -75,11 +83,11 @@ div {
 
             
         }
-    /* .flex-container {
+    .flex-container {
         display: flex;
-    } */
+    } 
 }
-                                .row-2 {
+                                /* .row-2 {
                                     display: flex;
                                     display: inline-flex;
                                     flex-direction: column;
@@ -90,7 +98,7 @@ div {
                                     height: 500px;
                                     width: 25%;
                                     text-align: center;
-                                }
+                                } */
                                     
         header {
             display: flex;
