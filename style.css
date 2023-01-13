@@ -1,6 +1,14 @@
 * {
     box-sizing:border-box;
     display: grid;
+    align-content: space-evenly;
+    align-items: stretch;
+    justify-items: stretch;
+    margin: 1px;
+    border: 5px;
+    padding: revert;
+
+
 }
    .grid {
        display: flex;
@@ -11,12 +19,12 @@
 }
 h1 {
     content: center;
-    background-color: pink;
+
 }
 div {
-    background-color: green
-    ;
-    display: revert;
+    background-color:whitesmoke;
+    inline-size: -webkit-fill-available;
+    font-variant: tabular-nums;
 }
 
 
@@ -68,25 +76,13 @@ div {
     }
 }
 } */
-                                /* .row-2 {
-                                    display: flex;
-                                    display: inline-flex;
-                                    flex-direction: column;
-                                    justify-content: space-evenly;
-                                    align-items: stretch;
-                                    grid-template: 10px;
-                                    order: 6;
-                                    height: 500px;
-                                    width: 25%;
-                                    text-align: center;
-                                } */
-                                    
-        /* header {
+                         
+                                  
+        header {
             display: flex;
             flex-direction: column;
-                order: 1;
-                align-items: stretch;
-        } */
+                /* align-items: stretch; */
+        } */ */
                 /* .nav--featured {
                     order: 1;
         
@@ -103,24 +99,6 @@ div {
                     width: 50%;
     
                 } */
- /* .row {
-    display: inline-flex;
-    flex-flow:column nowrap;
-    flex-direction: column; 
-    justify-content: space-evenly;
-    align-content: space-between;
-    gap: 5px;
-    text-align: center; 
-    /* columns: 6;
-    grid-row-start: auto 6;
-    column-gap: 2;
-    row-gap: 3; 
-}  */
-/* .column {
-    order: 1;
-    align-items: stretch; */
-
-
 .dropdown {
     display: flex;
     flex-direction: row;
