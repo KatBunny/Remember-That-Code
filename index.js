@@ -1,19 +1,21 @@
 const URL = "https://katbunny.github.io/Remember-That-Code/" // nice
 
-fetch(URL); // the ; 'ends' the expression like a period, but you want to chain .then() after it
-function list(data){ 
-    const values =  // incomplete assignment
 
-}
-    .then(response => response.json()) // this .then() chain needs to be attached to fetch(URL)
-    .then(data => list(data)) // 
-    .catch(err => console.log(err))
-    .then(data =>(data)) // you could console.log(data) here to see what you got from the fetch
-}
-const name = document.getElementById('cake-name') // this section is a good start
-const image = document.getElementById('cake-image')
-const description = document.getElementById("cake-description")
-const reviews = document.getElementById("review-list")
+
+// fetch(URL); // the ; 'ends' the expression like a period, but you want to chain .then() after it
+// function list(data){ 
+//     const values =  // incomplete assignment
+
+// }
+//     .then(response => response.json()) // this .then() chain needs to be attached to fetch(URL)
+//     .then(data => list(data)) // 
+//     .catch(err => console.log(err))
+//     .then(data =>(data)) // you could console.log(data) here to see what you got from the fetch
+// }
+// const name = document.getElementById('cake-name') // this section is a good start
+// const image = document.getElementById('cake-image')
+// const description = document.getElementById("cake-description")
+// const reviews = document.getElementById("review-list")
 
 
 // document.addEventListener('DOMContentLoaded', () => {
