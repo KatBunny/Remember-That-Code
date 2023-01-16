@@ -1,6 +1,18 @@
 // const URL = "https://katbunny.github.io/Remember-That-Code/" // nice
 // function 
 
+const gridflashC = document.querySelector('.grid-flashC')
+
+function createBoard() {
+    for (let i = 0; i < cardArray.length; i++){
+    const card = document.createElement('HTMLDivElement',
+    card.setAttribute(('src', 'images/blank.jpeg'),
+    card.setAttribute('flashC', i),
+    //card.addEventListener('click', flipcard)
+    gridflashC.appendChild(card)));
+    }
+}
+
 
 // fetch("https://katbunny.github.io/Remember-That-Code/"); 
 // .then((data => list(.grid-flashC)))
