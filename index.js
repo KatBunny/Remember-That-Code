@@ -1,5 +1,16 @@
 
-document.addEventListener('DOMContentLoaded', () => {
+
+ const URL = "https://katbunny.github.io/Remember-That-Code/"
+
+ fetch("https://katbunny.github.io/Remember-That-Code/"); 
+ .then((data => id('grid-flashC')),
+  function list(cardChosen){
+      .checkForMatch(err =>
+         console.log(err))
+         
+         .then(data =>(data)) // you could console.log(data) 
+    
+
 
 
     const cardArr = [ 
@@ -88,15 +99,16 @@ document.addEventListener('DOMContentLoaded', () => {
             img:'images/ajaxAns.jpg'
         },
     ]
-    // console.log(cardArr[]);
+
+
     cardArr.sort[(''), 0.5 - Math.random()]
 
-//make board for cards to exist
+
 const gridflashC = document.querySelector('.grid-flashC'),
 const resultDisplay = document.querySelector('#result'),
 const cardsChosenId = ['']
 const cardsWon = ['']
-//create board
+
 
 function createBoard() {
     for (let i = 0; i < cardArr.length; i++){
@@ -105,7 +117,7 @@ function createBoard() {
     card.setAttribute('data-id', i),
     card.addEventListener('click', flipcard),
     gridflashC.appendChild(card)
-    )
+}
 }
 
 
@@ -115,14 +127,14 @@ function checkForMatch() {
     const optionOneId = cardChosenId[0]
     const optionTwoid = cardChosenId[1]
     if (cardsChosen[0] === cardsChosen[1]) {
-        alert('Perfet Match!')
+        console.log('Perfet Match!')
         cards(optionOneId).setAttribute('src', 'images/white')
         cards(optionTwoId).setAttribute('src', 'images/white')
         cardsWon.push(cardsChosen)
     } else {
         cards(optionOneId).setAttribute('src', 'images/blank.png')
         cards(optionTwoid).setAttribute('src', 'images/blank.png')
-        alert('Give it another Go!')
+        console.log('Give it another Go!')
     }
     cardChosen = []
     cardsChosenId = []
@@ -130,8 +142,9 @@ function checkForMatch() {
     if(cardsWon.length === cardArr.length/2) {
         resultDisplay.textContent = ('You Are a JavaScript Guru! Keep it Up!')
     }
+}
 
-//flip card
+
 function flipcard() {
     let cardId = this.getAttribute('images/My project-21.jpg')
     cardChosen.push(cardArr(cardId).name)
@@ -141,4 +154,4 @@ function flipcard() {
         setTimeout(checkForMatch, 500)
     }
 }
-}
+
