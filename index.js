@@ -7,12 +7,9 @@
   function list(cardChosen){
       .checkForMatch(err =>
          console.log(err))
-         
+
          .then(data =>(data)) // you could console.log(data) 
     
-
-
-
     const cardArr = [ 
         {
             name: 'array',
