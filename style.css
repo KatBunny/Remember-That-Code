@@ -21,7 +21,6 @@ div {
     content: "";
     display: table;
     clear: both;
-    /* transform: translate (-50%, -50%); */
 }
 .card {
     width: 125px fit-content;
@@ -31,7 +30,6 @@ div {
      padding: auto;
       align-items: stretch;
       text-align: center;
-        /* transform: translate(-50%, -50%); */
          transform-style: preserve-3d;
             transition: all 0.8 ease;
             transform: rotateY('180deg');
@@ -62,15 +60,10 @@ div {
         .flip-card-front--front {
             background-color: pink;
             transform: rotateY(180deg);
-                            
-                                /* -webkit-backface-visibility: hidden;
-                                    backface-visibility: hidden; */
-                        }
+        }
         .flip-card-back--back{
-            background-color: aquamarine;
             transform: rotateY(180deg);
-            /* -webkit-backface-visibility: hidden;
-            backface-visibility: hidden; */
+        
         }
     h1 {
         text-align: center;
