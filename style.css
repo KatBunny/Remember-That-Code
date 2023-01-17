@@ -8,25 +8,70 @@
     border: 5px;
     padding: revert;
 }
+
 div {
     background-color:whitesmoke;
     inline-size: -webkit-fill-available;
     font-variant: tabular-nums;
 }
-    .flashC:after {
-            content: "";
-            display: table;
-            clear: both;
+.flip-card {
+    transform: rotateY('180deg');
+} 
+.flip-card:after{ 
+    content: "";
+    display: table;
+    clear: both;
+    /* transform: translate (-50%, -50%); */
+}
+.card {
+    width: 125px fit-content;
+     height: 125px ;
+     background: thistle;
+     margin: 10px 15px 10px 15px;
+     padding: auto;
+      align-items: stretch;
+      text-align: center;
+        /* transform: translate(-50%, -50%); */
+         transform-style: preserve-3d;
+            transition: all 0.8 ease;
+            transform: rotateY('180deg');
+
+    }
+        .flip-card {
+            background-color: transparent;
+            perspective: 1000px;
         }
-                .card {
-                    width: 125px fit-content;
-                    height: 125px ;
-                    background: thistle;
-                    margin: 10px 15px 10px 15px;
-                    padding: auto;
-                    align-items: stretch;  
-                    text-align: center;
-                }
+    
+        .flip-card-inner {
+            position: relative;
+            transition: transform 0.6s;
+            transform-style: preserve-3d;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        }
+    
+        .flip-card:hover .flip-card-inner {
+            transform: rotateY(180deg);
+        }
+    
+        .flip-card-front, 
+        .flip-card-back{
+            /* position: absolute; */
+            -webkit-backface-visibility: hidden;
+            backface-visibility: hidden;
+        }
+        .flip-card-front--front {
+            background-color: pink;
+            transform: rotateY(180deg);
+                            
+                                /* -webkit-backface-visibility: hidden;
+                                    backface-visibility: hidden; */
+                        }
+        .flip-card-back--back{
+            background-color: aquamarine;
+            transform: rotateY(180deg);
+            /* -webkit-backface-visibility: hidden;
+            backface-visibility: hidden; */
+        }
     h1 {
         text-align: center;
         white-space: wrap;
@@ -50,6 +95,11 @@ div {
     font-family: fantasy;
 } 
 h1 {
+    text-align: center;
+    white-space: wrap;
+    content: center;
+    padding: 3rem 0 3rem 0;
+    text-decoration: underline plum;
     background: linear-gradient(217deg, lightpink, whitesmoke 70.71%),
     linear-gradient(127deg, lightgray, thistle 70.71%),linear-gradient(336deg, lavender, plum 70.71%);
     justify-self: auto;
