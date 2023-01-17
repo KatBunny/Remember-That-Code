@@ -1,14 +1,14 @@
-
+console.log ("hola");
 
  const URL = "https://katbunny.github.io/Remember-That-Code/"
 
- fetch("https://katbunny.github.io/Remember-That-Code/"); 
- .then((data => id('grid-flashC')),
-  function list(cardChosen){
-      .checkForMatch(err =>
-         console.log(err))
+//  fetch("https://katbunny.github.io/Remember-That-Code/"); 
+//  .then(data => id('grid-flashC'))
+//   function list(cardChosen){
+//       .checkForMatch(err =>
+//          console.log(err))
 
-         .then(data =>(data)) // you could console.log(data) 
+//          .then(data =>(data)) // you could console.log(data) 
     
     const cardArr = [ 
         {
