@@ -101,8 +101,8 @@ console.log ("hola");
     cardArr.sort[(''), 0.5 - Math.random()]
 
 
-const gridflashC = document.querySelector('.grid-flashC'),
-const resultDisplay = document.querySelector('#result'),
+const gridflashC = document.querySelector('.grid-flashC')
+const resultDisplay = document.querySelector('result');
 const cardsChosenId = ['']
 const cardsWon = ['']
 
